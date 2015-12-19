@@ -1,0 +1,32 @@
+html body {
+  background-image: url("/images/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  html body #main_content {
+    text-align: center;
+    font-size: 150%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    background-color: rgba(112, 112, 112, 0.7); }
+    html body #main_content a:visited {
+      color: white; }
+    html body #main_content #main_jiahao_image img {
+      border-radius: 50%; }
+    html body #main_content .social_circle ul li {
+      padding: 20px;
+      display: inline; }
+      html body #main_content .social_circle ul li img {
+        width: 50px;
+        height: auto; }
+    html body #main_content .projects ul {
+      list-style-type: none; }
+      html body #main_content .projects ul li {
+        padding: 20px;
+        margin: 20px, 0px, 20px, 0px; }
+
+/*# sourceMappingURL=index.css.map */
