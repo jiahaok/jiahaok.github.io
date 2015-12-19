@@ -24,6 +24,8 @@ html body {
       html body #main_content .social_circle ul li img {
         width: 50px;
         height: auto; }
+    html body #main_content .hackathons ul {
+      list-style-type: none; }
     html body #main_content .projects ul {
       list-style-type: none; }
       html body #main_content .projects ul li {
