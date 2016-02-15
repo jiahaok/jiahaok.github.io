@@ -1,0 +1,24 @@
+{
+  "name": "personal-website",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "@jiahaok"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jiahaok/website",
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "font-awsome#^4.5.0"
+  }
+}

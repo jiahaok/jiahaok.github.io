@@ -1,0 +1,13 @@
+@font-face {
+    font-family: bsFont;
+    src: url('/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg') format('svg'); /* Legacy iOS */
+
+    font-family: FontAwesome;
+    src: url('/bower_components/font-awesome/fonts/fontawesome-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/bower_components/font-awesome/fonts/fontawesome-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+    url('/bower_components/font-awesome/fonts/fontawesome-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('/bower_components/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); /* Legacy iOS */
+}
