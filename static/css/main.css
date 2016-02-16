@@ -1,13 +1,52 @@
 @font-face {
     font-family: bsFont;
-    src: url('/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2') format('woff2'), /* Super Modern Browsers */
-    url('/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff') format('woff'), /* Pretty Modern Browsers */
-    url('/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-    url('/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg') format('svg'); /* Legacy iOS */
+    src: url('/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/bootstrap/dist/fonts/glyphicons-halflings-regular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('/bootstrap/dist/fonts/glyphicons-halflings-regular.svg') format('svg'); /* Legacy iOS */
 
+}
+@font-face{
     font-family: FontAwesome;
-    src: url('/bower_components/font-awesome/fonts/fontawesome-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-    url('/bower_components/font-awesome/fonts/fontawesome-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-    url('/bower_components/font-awesome/fonts/fontawesome-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-    url('/bower_components/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); /* Legacy iOS */
+    src: url('/font-awesome/fonts/fontawesome-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/font-awesome/fonts/fontawesome-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+    url('/font-awesome/fonts/fontawesome-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); /* Legacy iOS */
+}
+
+.h1name {
+    font-family: 'Indie Flower', cursive;
+    font-size: 75px;
+}
+
+#title-name {
+    font-size: large;
+}
+
+.centered {
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.centered * {
+    text-align: center;
+    margin: 0 auto;
+}
+#profile-picture {
+    border-radius: 10%;
+}
+.intro-text {
+    font-size: large;
+    font-family: 'Indie Flower', cursive;
+}
+
+.foot-text {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 600;
+    font-size: 15px;
+}
+.heart-red-color {
+    color: red;
 }

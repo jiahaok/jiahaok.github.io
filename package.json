@@ -1,7 +1,7 @@
 {
   "name": "personal-website",
   "version": "1.0.0",
-  "description": "",
+  "description": "jiahao's personal website",
   "main": "server.js",
   "scripts": {
     "postinstall": "bower install",
