@@ -1,11 +1,12 @@
 @font-face {
     font-family: bsFont;
-    src: url('/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2') format('woff2'), /* Super Modern Browsers */
-    url('/bootstrap/dist/fonts/glyphicons-halflings-regular.woff') format('woff'), /* Pretty Modern Browsers */
-    url('/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('/bootstrap/dist/fonts/glyphicons-halflings-regular.svg') format('svg'); /* Legacy iOS */
+    src: url('/bootstrap/fonts/glyphicons-halflings-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('/bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('/bootstrap/fonts/glyphicons-halflings-regular.svg') format('svg'); /* Legacy iOS */
 
 }
+
 @font-face{
     font-family: FontAwesome;
     src: url('/font-awesome/fonts/fontawesome-webfont.woff2') format('woff2'), /* Super Modern Browsers */
@@ -14,39 +15,66 @@
     url('/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); /* Legacy iOS */
 }
 
-.h1name {
-    font-family: 'Indie Flower', cursive;
-    font-size: 75px;
+.container {
+    background-color: rgba(55, 55, 55, 1);
 }
 
-#title-name {
-    font-size: large;
+.headPage {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
 }
 
-.centered {
+.headPage img {
+    display: block;
+    max-width: 100%;
+}
+
+.headPage .element_overlay {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    margin: auto auto auto auto;
+    width: 20%;
+    color:white;
     text-align: center;
-    margin: 0 auto;
-    width: 500px;
 }
 
-.centered * {
-    text-align: center;
-    margin: 0 auto;
-}
-#profile-picture {
-    border-radius: 10%;
-}
-.intro-text {
-    font-size: large;
-    font-family: 'Indie Flower', cursive;
+.headPage .element_overlay .profile_picture img {
+    border-radius: 50%;
 }
 
-.foot-text {
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-    font-weight: 600;
-    font-size: 15px;
+.space_break {
+    height: 250px;
 }
-.heart-red-color {
-    color: red;
+
+.Intro {
+    background-color: #2aabd2;
+    text-align: center;
+    position: relative;
+}
+
+.Intro .Intro_dialog {
+    padding: 100px 0 0 0;
+    font-family: 'Indie Flower', cursive;
+    font-size: x-large;
+}
+
+.Intro .development {
+    padding: 20px 0 0 0;
+    font-family: 'Indie Flower', cursive;
+    font-size: x-large;
+    font-weight: bold;
+    color: orange;
+}
+
+.Social {
+    background-color: #ff3835;
+    text-align: center;
+    position: relative;
+}
+
+.Social .Social_container {
+    padding: 5% 20% 5% 20%;
+
 }

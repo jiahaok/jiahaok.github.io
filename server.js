@@ -14,4 +14,4 @@ app.get('/*', function(request, response){
 });
 
 app.listen(port);
-console.log("server lisneting on "+port);
+console.log("server lisneting on "+ port);
