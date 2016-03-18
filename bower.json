@@ -19,7 +19,6 @@
   ],
   "dependencies": {
     "font-awesome": "font-awsome#^4.5.0",
-    "jquery": "^2.2.0",
-    "packery": "^2.0.0"
+    "jquery": "^2.2.0"
   }
 }
