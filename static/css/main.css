@@ -1,11 +1,12 @@
 @font-face {
     font-family: bsFont;
-    src: url('/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2') format('woff2'), /* Super Modern Browsers */
-    url('/bootstrap/dist/fonts/glyphicons-halflings-regular.woff') format('woff'), /* Pretty Modern Browsers */
-    url('/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('/bootstrap/dist/fonts/glyphicons-halflings-regular.svg') format('svg'); /* Legacy iOS */
+    src: url('/bootstrap/fonts/glyphicons-halflings-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('/bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('/bootstrap/fonts/glyphicons-halflings-regular.svg') format('svg'); /* Legacy iOS */
 
 }
+
 @font-face{
     font-family: FontAwesome;
     src: url('/font-awesome/fonts/fontawesome-webfont.woff2') format('woff2'), /* Super Modern Browsers */
@@ -14,13 +15,61 @@
     url('/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); /* Legacy iOS */
 }
 
-.h1name {
-    font-family: 'Indie Flower', cursive;
-    font-size: 75px;
+.container {
+    background-color: rgba(55, 55, 55, 1);
 }
 
-#title-name {
-    font-size: large;
+.headPage {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.headPage img {
+    display: block;
+    max-width: 100%;
+}
+
+.headPage .element_overlay {
+    position: absolute;
+    top: 10%;
+    left: 37%;
+    margin: auto auto auto auto;
+    width: 26%;
+    color:white;
+    text-align: center;
+}
+.headPage .img-responsive{
+    width: 100%;
+}
+
+.headPage .element_overlay .profile_picture img {
+    border-radius: 50%;
+}
+
+.space_break {
+    height: 20%;
+}
+
+.Intro {
+    background-color: #2196F3;
+    text-align: center;
+    position: relative;
+}
+
+.Intro .Intro_dialog {
+    padding: 100px 0 0 0;
+    font-family: 'Indie Flower', cursive;
+    font-size: x-large;
+}
+
+.Social {
+    background-color: #F44336;
+    text-align: center;
+    position: relative;
+}
+.social_circle {
+    color: #3F51B5;
 }
 
 .centered {
@@ -33,20 +82,62 @@
     text-align: center;
     margin: 0 auto;
 }
-#profile-picture {
-    border-radius: 10%;
+
+.slant_blue:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -40px;
+    width: 100%;
+    height: 80px;
+    background: #00bcd4;
+    -webkit-transform: skewY(2deg);
+    -moz-transform: skewY(2deg);
+    -ms-transform: skewY(2deg);
+    -o-transform: skewY(2deg);
+    transform: skewY(2deg);
+    -webkit-backface-visibility: hidden;
 }
-.intro-text {
-    font-size: large;
+
+.slant_blue {
+    background: #00bcd4;
+    position: relative;
+    margin-top: 100px;
+    padding-bottom: 75px;
+}
+
+.slant_orange:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -40px;
+    width: 100%;
+    height: 80px;
+    background: #FF9800;
+    -webkit-transform: skewY(-2deg);
+    -moz-transform: skewY(-2deg);
+    -ms-transform: skewY(-2deg);
+    -o-transform: skewY(-2deg);
+    transform: skewY(-2deg);
+    -webkit-backface-visibility: hidden;
+}
+
+.slant_orange {
+    background: #FF9800;
+    position: relative;
+    margin-top: 100px;
+    padding-bottom: 75px;
+}
+
+.footNote {
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
     font-family: 'Indie Flower', cursive;
 }
 
-.foot-text {
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-    font-weight: 600;
-    font-size: 15px;
-}
 .heart-red-color {
     color: red;
 }
