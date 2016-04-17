@@ -1,5 +1,5 @@
 # Personal Website
 
-Its my persona website
+Its my personal website
 
 jiahaokuang.xyz
