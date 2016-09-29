@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Jiahao Kuang</title>
+        <script>
+            var responsive_viewport = screen.width;
+            if(responsive_viewport > window.innerWidth){responsive_viewport = window.innerWidth;}
+            if(responsive_viewport>=320 && responsive_viewport<375){document.write('<meta name="viewport"content="width=device-width,user-scalable=no,initial-scale=0.69"/>');}
+            else if(responsive_viewport>=375 && responsive_viewport<=414){document.write('<meta name="viewport"content="width=device-width,user-scalable=no,initial-scale=0.8"/>');}
+            else if(responsive_viewport>=414 && responsive_viewport<=425){document.write('<meta name="viewport"content="width=device-width,user-scalable=no,initial-scale=0.9"/>');}
+            else if(responsive_viewport>=425){document.write('<meta name="viewport"content="width=device-width,user-scalable=no,initial-scale=1"/>');}
+        </script>
+    </head>
+    <body id="content">
+        <link rel="stylesheet" href="index.css"/>
+        <header id="header" class="bar">
+
+        </header>
+
+        <img id="profile_pic" src="static/images/jiahao_kuang_profile_picture.jpg"/>
+        <h1 id="name">I'm Jiahao Kuang</h1>
+        <p id="welcome">I wield magic with code...</p>
+
+        <footer id="footer" class="bar">
+            <p>Made with
+                <svg class="heart" viewBox="0 0 32 29.6" height="20px">
+                <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+	c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/></svg>
+                by Jiahao Kuang</p>
+        </footer>
+    </body>
 </html>
