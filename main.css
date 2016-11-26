@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-color: #F2F2F2;
+}
+
+header#header{
+    background-color: #FAA500;
+    width: 100%;
+    mix-blend-mode: normal;
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+p{
+    margin:0;
+}
+
+h1{
+    margin: 0 10px 5px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    color: white;
+}
+
+h2{
+    margin: 0;
+}
+
+h3{
+    margin: 0;
+}
+
+h4{
+    margin: 0;
+}
+
+h5{
+    margin: 0;
+}
+
+#profile_block{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#profile_card{
+    width: 480px;
+    height: 622px;
+    margin: auto;
+    background-color: white;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+#profile_pict{
+    width: inherit;
+    height: auto;
+}
+
+#profile_welcome{
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+#profile_what_I_Do{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+#social_block{
+    mix-blend-mode: normal;
+    margin:auto;
+    width: 80%;
+    min-width: 660px;
+    height: 766px;
+}
+
+.big_card{
+    float: left;
+    display: block;
+    margin: 50px 10px ;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+    width: 640px;
+    height: 666px;
+    mix-blend-mode: normal;
+}
+
+#github_username_tag{
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+    color: black;
+}
+
+#github_username_tag a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+#github_username_tag a:link{
+    text-decoration: none;
+}
+
+#social_card{
+    margin-bottom: 50px;
+    background-color: #f3f3f3;
+}
+
+.small_card{
+    float: left;
+    display: block;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+    width: 309px;
+    height: 323px;
+    mix-blend-mode: normal;
+    margin: 5px 5px;
+}
+
+footer#footer{
+    background-color: #27A3FF;
+}
+
+#footer_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+}

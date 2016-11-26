@@ -1,2 +1,7 @@
-# Website
-Its my persona website, link to the site will be updated once I find a place to host it
+# Personal Website
+
+It's my personal website
+
+jiahaokuang.xyz
+
+this is revision 2 of my website with material design.

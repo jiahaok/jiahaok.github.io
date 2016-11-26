@@ -1,71 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="title" content="Jiahao Kuang">
-        <meta name="description" content="Jiahao Kuang's personal website">
-        <meta name="keywords" content="Jiahao,Kuang,JiahaoKuang,website,personal">
-        <meta name="author" content="Jiahao Kuang">
-        <meta name="google" content="nositelinkssearchbox" />
-        <title>Jiahao Kuang</title>
-        <script src="/jquery/dist/jquery.min.js"></script>
-        <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
-        <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
-        <link type="text/css" rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
-        <link type="text/css" rel="stylesheet" href="/bootstrap/dist/css/bootstrap-theme.min.css">
-        <link type="text/css" rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
-        <link type="text/css" rel="stylesheet" href="/css/main.min.css">
-    </head>
-    <body>
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#"><b>Jiahao Kuang</b></a>
-                </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="https://github.com/jiahaok" rel="author"><i class="fa fa-2x fa-github"></i></a></li>
-                        <li><a href="https://www.facebook.com/kuangjiahao" rel="author"><i class="fa fa-2x fa-facebook-official"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div class="container-fluid">
-            <div class="well">
-                <div class="centered">
-                    <h1 class="h1name">Jiahao Kuang</h1>
-                    <br>
-                    <br>
-                    <div>
-                        <div>
-                            <img id="profile-picture" class="img-responsive" alt="Jiahao Kuang profile picture" height="540" width="540" src="images/jiahao_kuang_profile_picture.jpg">
-                        </div>
-                        <br>
-                        <br>
-                        <div class="intro-text">
-                            <p><b>Hi, I am Jiahao, Welcome to my section of the internet.</b></p>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <div class="row row-centered centered">
-                    <div class="col-xs-3 text-center col-centered">
-                        <a href="https://github.com/jiahaok" rel="author"><i class="fa fa-github fa-5x" data-toggle="tooltip" title="Github"></i></a>
-                    </div>
-                    <div class="col-xs-3 text-center col-centered">
-                        <a href="https://www.facebook.com/kuangjiahao" rel="author"><i class="fa fa-facebook-official fa-5x" data-toggle="tooltip" title="Facebook"></i></a>
-                    </div>
-                    <div class="col-xs-3 text-center col-centered">
-                        <a href="http://devpost.com/jiahaok" rel="author"><i class="fa fa-code fa-5x" data-toggle="tooltip" title="Devpost"></i></a>
-                    </div>
-                    <div class="col-xs-3 text-center col-centered">
-                        <a href="mailto: jiahaokuang7066@gmail.com" rel="author"><i class="fa fa-envelope fa-5x" data-toggle="tooltip" title="jiahaokuang7066@gmail.com"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="foot-text">
-                <p>Made With <a href="https://github.com/jiahaok/website"><i class="fa fa-heart heart-red-color fa-large"></i></a> By Jiahao Kuang</p>
+<head>
+    <meta charset="UTF-8">
+    <title>Jiahao Kuang</title>
+    <link href="main.css" type="text/css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <h1>Jiahao Kuang</h1>
+    </header>
+    <div id="content">
+        <div id="profile_block">
+            <div id="profile_card">
+                <img id="profile_pict" src="static/images/profilePicture.jpg"/>
+                <p id="profile_welcome">Hi, I'm Jiahao Kuang</p>
+                <p id="profile_what_I_Do">I wield magic with code...</p>
             </div>
         </div>
-    </body>
+        <div id="social_block">
+            <div id="github_card" class="big_card">
+                <a href="https://github.com/jiahaok">
+                    <img src="static/images/Octocat.svg" id="Octocat"/>
+                </a>
+                <div id="github_username_tag">
+                    <a href="http://github.com/jiahaok"><p>@jiahaok</p></a>
+                </div>
+            </div>
+            <div id="social_card" class="big_card">
+                <div id="facebook_icon" class="small_card">
+                    <a href="https://www.facebook.com/kuangjiahao">
+                        <img src="static/images/facebook-logo.svg" id="facebook"/>
+                    </a>
+                </div>
+                <div id="twitter_icon" class="small_card">
+                    <a href="https://twitter.com/jiahaokuang7066">
+                        <img src="static/images/twitter-logo.svg" id="twitter"/>
+                    </a>
+                </div>
+                <div id="email_icon" class="small_card">
+                    <a href="mailto:jiahao@jiahaokuang.com">
+                        <img src="static/images/gmail-logo.svg" id="email"/>
+                    </a>
+                </div>
+                <div id="resume_icon" class="small_card">
+                    <a href="static/files/Resume-Jiahao-Kuang.pdf">
+                        <img src="static/images/resume_logo.svg" id="resume"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <span id="footer_text"><p>Made With <a href="https://github.com/jiahaok/website"><img id="heart" src="static/images/Heart.svg"/></a> By Jiahao Kuang</p></span>
+    </footer>
+</body>
 </html>
