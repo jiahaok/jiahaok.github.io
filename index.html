@@ -1,33 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Jiahao Kuang</title>
-        <script>
-            var responsive_viewport = screen.width;
-            if(responsive_viewport > window.innerWidth){responsive_viewport = window.innerWidth;}
-            if(responsive_viewport>=320 && responsive_viewport<375){document.write('<meta name="viewport"content="width=device-width,user-scalable=no,initial-scale=0.69"/>');}
-            else if(responsive_viewport>=375 && responsive_viewport<=414){document.write('<meta name="viewport"content="width=device-width,user-scalable=no,initial-scale=0.8"/>');}
-            else if(responsive_viewport>=414 && responsive_viewport<=425){document.write('<meta name="viewport"content="width=device-width,user-scalable=no,initial-scale=0.9"/>');}
-            else if(responsive_viewport>=425){document.write('<meta name="viewport"content="width=device-width,user-scalable=no,initial-scale=1"/>');}
-        </script>
-    </head>
-    <body id="content">
-        <link rel="stylesheet" href="index.css"/>
-        <header id="header" class="bar">
-
-        </header>
-
-        <img id="profile_pic" src="static/images/jiahao_kuang_profile_picture.jpg"/>
-        <h1 id="name">I'm Jiahao Kuang</h1>
-        <p id="welcome">I wield magic with code...</p>
-
-        <footer id="footer" class="bar">
-            <p>Made with
-                <svg class="heart" viewBox="0 0 32 29.6" height="20px">
-                <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
-	c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/></svg>
-                by Jiahao Kuang</p>
-        </footer>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Jiahao Kuang</title>
+    <link href="main.css" type="text/css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <h1>Jiahao Kuang</h1>
+    </header>
+    <div id="content">
+        <div id="profile_block">
+            <div id="profile_card">
+                <img id="profile_pict" src="static/images/profilePicture.jpg"/>
+                <p id="profile_welcome">Hi, I'm Jiahao Kuang</p>
+                <p id="profile_what_I_Do">I wield magic with code...</p>
+            </div>
+        </div>
+        <div id="social_block">
+            <div id="github_card" class="big_card">
+                <a href="https://github.com/jiahaok">
+                    <img src="static/images/Octocat.svg" id="Octocat"/>
+                </a>
+                <div id="github_username_tag">
+                    <a href="http://github.com/jiahaok"><p>@jiahaok</p></a>
+                </div>
+            </div>
+            <div id="social_card" class="big_card">
+                <div id="facebook_icon" class="small_card">
+                    <a href="https://www.facebook.com/kuangjiahao">
+                        <img src="static/images/facebook-logo.svg" id="facebook"/>
+                    </a>
+                </div>
+                <div id="twitter_icon" class="small_card">
+                    <a href="https://twitter.com/jiahaokuang7066">
+                        <img src="static/images/twitter-logo.svg" id="twitter"/>
+                    </a>
+                </div>
+                <div id="email_icon" class="small_card">
+                    <a href="mailto:jiahao@jiahaokuang.com">
+                        <img src="static/images/gmail-logo.svg" id="email"/>
+                    </a>
+                </div>
+                <div id="resume_icon" class="small_card">
+                    <a href="static/files/Resume-Jiahao-Kuang.pdf">
+                        <img src="static/images/resume_logo.svg" id="resume"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <span id="footer_text"><p>Made With <a href="https://github.com/jiahaok/website"><img id="heart" src="static/images/Heart.svg"/></a> By Jiahao Kuang</p></span>
+    </footer>
+</body>
 </html>

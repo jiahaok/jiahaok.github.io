@@ -1,7 +1,7 @@
 # Personal Website
 
-Its my persona website
+It's my personal website
 
 jiahaokuang.xyz
 
-this is revision 2 of my website incorporating better technologies.
+this is revision 2 of my website with material design.
