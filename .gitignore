@@ -1,6 +1,2 @@
 #jetbrain ide
 /.idea
-
-#node modules and libaries
-/node_modules
-/bower_components
